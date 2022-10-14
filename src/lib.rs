@@ -127,7 +127,7 @@ pub use crate::export::*;
 #[macro_use]
 mod macros;
 #[macro_use]
-mod class;
+pub mod class;
 
 mod dim;
 mod error;
