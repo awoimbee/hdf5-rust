@@ -68,6 +68,7 @@ mod export {
     #[doc(hidden)]
     pub use crate::error::h5check;
 
+    pub use hdf5_sys;
     pub use hdf5_derive::H5Type;
     pub use hdf5_types::H5Type;
 
